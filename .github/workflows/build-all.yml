@@ -1,11 +1,10 @@
 name: Continuous build
 on:
+  workflow_dispatch
   push:
     branches:
       - master
       - ci_dev
-
-on: workflow_dispatch
 
 jobs:
   BuildLinux:
