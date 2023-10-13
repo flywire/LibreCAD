@@ -5,6 +5,8 @@ on:
       - master
       - ci_dev
 
+on: workflow_dispatch
+
 jobs:
   BuildLinux:
     runs-on: ubuntu-22.04
